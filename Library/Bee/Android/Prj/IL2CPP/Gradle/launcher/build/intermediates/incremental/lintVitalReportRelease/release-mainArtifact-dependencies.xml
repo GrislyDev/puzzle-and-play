@@ -1,0 +1,22 @@
+<dependencies>
+  <compile
+      roots="D:\UnityProjects\Diploma\Library\Bee\Android\Prj\IL2CPP\Gradle@@:unityLibrary::release">
+    <dependency
+        name="D:\UnityProjects\Diploma\Library\Bee\Android\Prj\IL2CPP\Gradle@@:unityLibrary::release"
+        simpleName="Gradle:unityLibrary"/>
+  </compile>
+  <package
+      roots="D:\UnityProjects\Diploma\Library\Bee\Android\Prj\IL2CPP\Gradle@@:unityLibrary::release,__local_aars__:D:\UnityProjects\Diploma\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\libs\unity-classes.jar:unspecified@jar,:billing-5.2.1:@aar,:common:@aar,:com.candycoded.hapticfeedbacklibrary-release:@aar">
+    <dependency
+        name="D:\UnityProjects\Diploma\Library\Bee\Android\Prj\IL2CPP\Gradle@@:unityLibrary::release"
+        simpleName="Gradle:unityLibrary"/>
+    <dependency
+        name="__local_aars__:D:\UnityProjects\Diploma\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\libs\unity-classes.jar:unspecified@jar"/>
+    <dependency
+        name=":billing-5.2.1:@aar"/>
+    <dependency
+        name=":common:@aar"/>
+    <dependency
+        name=":com.candycoded.hapticfeedbacklibrary-release:@aar"/>
+  </package>
+</dependencies>
